@@ -72,6 +72,9 @@ The application will automatically open in your default web browser at http://lo
 4. **Storage:** Vectors are stored locally in ChromaDB.<br>
 5. **Retrieval & Generation:** When a user asks a question, the app rewrites it based on chat history, searches ChromaDB for the top 3 most relevant chunks, and feeds that context to the Gemini LLM to generate a precise answer.<br>
 
+## 🔬 Prototyping Phase<br>
+Before deploying the Streamlit UI, the core Retrieval-Augmented Generation pipeline was prototyped and tested in an isolated environment. You can view the step-by-step construction of the LLM chains and vector embeddings in the provided Jupyter Notebook.<br>
+
 ## 👨‍💻 Author<br>
 Archit Singh -<br>
 * [GitHub](https://github.com/architsingh7)<br>
